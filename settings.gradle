@@ -1,0 +1,5 @@
+rootProject.name = 'micro-services'
+
+include 'kafka-consumer'
+include 'kafka-producer'
+
