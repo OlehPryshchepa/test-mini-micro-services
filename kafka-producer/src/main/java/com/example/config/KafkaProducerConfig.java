@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Configuration
 public class KafkaProducerConfig {
-    private String bootstrapAddress = "localhost:9093";
+    private String bootstrapAddress = "localhost:29092";
 
     @Bean
     public ProducerFactory<String, String> producerFactory() {
